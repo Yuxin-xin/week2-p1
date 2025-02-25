@@ -1,0 +1,22 @@
+body{
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+h1{
+    background-color: navy;
+    color: white;
+    padding: 12px;
+    border-bottom: 4px solid darkred;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+h1:hover {
+    color: yellow;
+    border-bottom: 4px solid yellow;
+}
+
+p:hover {
+    color: darkred;
+    text-transform: uppercase;
+    transform: translate(5px, 5px);
+}

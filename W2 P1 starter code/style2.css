@@ -1,0 +1,21 @@
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: left;
+    color:deepskyblue
+}
+::selection {
+    background-color: rgb(242, 220, 220);
+    color: rgb(106, 212, 191);
+}
+h1:hover {
+    cursor: help;
+}
+
+p:hover {
+    cursor: pointer;
+}
